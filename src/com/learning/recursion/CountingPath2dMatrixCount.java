@@ -6,9 +6,9 @@ public class CountingPath2dMatrixCount {
 	public static void main(String[] args) {
 		int r = 3;
 		int c = 3;
-//		countingPath2DMatrix("", r, c);
-//		System.out.println(pathReturn("", r, c));
-//		System.out.println(pathReturnDiog("", r, c));
+		countingPath2DMatrix("", r, c);
+		System.out.println(pathReturn("", r, c));
+		System.out.println(pathReturnDiog("", r, c));
 		boolean[][] board = { 
 	            { true, true, false }, 
 	            { true, true, true }, 

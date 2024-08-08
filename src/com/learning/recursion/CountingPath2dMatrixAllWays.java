@@ -13,7 +13,7 @@ public class CountingPath2dMatrixAllWays {
 		int[][] path = new int[board.length][board[0].length];
 		//System.out.println(countingPath2dMatrixAllWays("", board, 0, 0));
 		//path2dMatrixAllWays("", board, 0, 0);
-		allPathPrint("", board, 0, 0, path, 0);
+		allPathPrint("", board, 0, 0, path, 1);
 	}
 	
 	public static void path2dMatrixAllWays(String p, boolean[][] maze, int r, int c) {
